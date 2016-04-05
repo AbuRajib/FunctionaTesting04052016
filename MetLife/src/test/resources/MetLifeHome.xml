@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MetLife Functional Testing">
+    <parameter name="SauceLabs" value="false"/>
+    <parameter name="userName" value="rajib0078"/>
+    <parameter name="Key" value="e7d64913-3a8f-4ef4-8f2c-d4a694179e16"/>
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="browserVersion" value="37"/>
+    <parameter name="os" value="windows"/>
+    <parameter name="url" value="https://www.metlife.com/"/>
+
+
+        <test name="Functional testing">
+            <classes>
+                <class name="HomePage.AssertionText"/>
+                <class name="HomePage.MenuListCheck"/>
+                <class name="HomePage.GetaQuote"/>
+                <class name="HomePage.FormDownload"/>
+            </classes>
+        </test>
+
+</suite>

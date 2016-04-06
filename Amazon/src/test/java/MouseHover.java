@@ -11,15 +11,18 @@ public class MouseHover extends Base{
 
     @Test
     public void mouseHover() throws InterruptedException, IOException {
-        List<String> st=getListOfTextByCss("#nav-shop #nav-link-shopall .nav-line-2");
-        displayText(st);
+//        List<String> st=getListOfTextByCss("#nav-shop #nav-link-shopall .nav-line-2");
+//        displayText(st);
 
         //Capture Screen shot
 
         //takeScreenShot("E:\\PeopleNtech\\ZZ.New Season\\image.png");
 
+        List<WebElement> list=webElementsByXpath(".//*[@id='nav-link-shopall']/span[2]");
+        mouseOver(list);
 
-
+        List<WebElement> elements=webElementsByXpath(".//*[@id='nav-flyout-shopAll']/div[2]/span");
+        mouseOver(elements);
 
     }
 

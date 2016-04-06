@@ -16,11 +16,11 @@ public class LogInPage extends Base{
         typeAndEnterByXpath(".//*[@id='ap_password']","monowara0078");
         sleepFor(2);
 
-   /*     List<WebElement> list=webElementsByXpath("./[@id='nav-link-yourAccount']/span[2]/span");
-        mouseHover(list);
+        List<WebElement> list=webElementsByXpath(".//*[@id='nav-link-yourAccount']/span[2]");
+        mouseOver(list);
         sleepFor(1);
-        clickByXpath("./*//*[@id='nav-item-signout']/span");
-        sleepFor(2);*/
+        clickByXpath(".//*[@id='nav-item-signout']/span");
+        sleepFor(2);
 
     }
 }

@@ -13,8 +13,8 @@
     <test name="Functional Testing For Amazon">
         <classes>
             <class name="LogInPage"/>
-            <class name="SearchBox"/>
-            <class name="MouseHover"/>
+            <!--<class name="SearchBox"/>-->
+            <!--<class name="MouseHover"/>-->
         </classes>
     </test>
 </suite>

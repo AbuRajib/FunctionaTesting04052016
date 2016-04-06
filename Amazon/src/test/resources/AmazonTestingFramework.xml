@@ -12,9 +12,10 @@
 
     <test name="Functional Testing For Amazon">
         <classes>
-            <class name="LogInPage"/>
+            <!--<class name="LogInPage"/>-->
             <!--<class name="SearchBox"/>-->
             <!--<class name="MouseHover"/>-->
+            <class name="PictureCount"/>
         </classes>
     </test>
 </suite>
